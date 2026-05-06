@@ -1,0 +1,127 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "abbreviations-mark",
+        "version": "1.0.0",
+        "title": "Abbreviations and Acronyms",
+        "description": "Abbreviations and Acronyms Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "No abbreviations found.",
+                    "target": "未找到缩略语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "未找到缩略语。",
+                    "target": "未找到缩略语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "未找到縮略語。",
+                    "target": "未找到缩略语。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Type the search term",
+                    "target": "输入搜索词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "输入搜索词",
+                    "target": "输入搜索词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "輸入搜尋詞",
+                    "target": "输入搜索词"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text: {text}",
+                    "target": "文本：{text}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "缩写：{text}",
+                    "target": "缩写：{text}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "縮寫：{text}",
+                    "target": "缩写：{text}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "*[W3C]: World Wide Web Consortium",
+                    "target": "*[W3C]: 万维网联盟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "s, es, less",
+                    "target": "s, es, less"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Manage global abbreviations",
+                    "target": "管理全局缩略语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "管理全局缩略语",
+                    "target": "管理全局缩略语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "管理全域性縮略語",
+                    "target": "管理全局缩略语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Chinese, Japanese, Korean",
+                    "target": "中文、日文、韩文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Tooltip: {tooltip}",
+                    "target": "提示：{tooltip}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "全称：{tooltip}",
+                    "target": "全称：{tooltip}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "全稱：{tooltip}",
+                    "target": "全称：{tooltip}"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

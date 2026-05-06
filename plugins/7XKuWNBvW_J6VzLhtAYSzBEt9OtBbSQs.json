@@ -1,0 +1,757 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "3d-graph-new",
+        "version": "1.0.0",
+        "title": "3D Graph New",
+        "description": "3D Graph New Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.11",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.Object3D.add: object can't be added as a child of itself.",
+                    "target": "THREE.Object3D.add: 对象不能作为自身的子对象添加。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.Object3D.add: object not an instance of THREE.Object3D.",
+                    "target": "THREE.Object3D.add: 对象不是 THREE.Object3D 的实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.BufferGeometry.computeBoundingBox(): GLBufferAttribute requires a manual bounding box. Alternatively set \"mesh.frustumCulled\" to \"false\".",
+                    "target": "THREE.BufferGeometry.computeBoundingBox(): GLBufferAttribute 需要手动设置包围盒。或者将 \"mesh.frustumCulled\" 设为 \"false\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.BufferGeometry.computeBoundingBox(): Computed min/max have NaN values. The \"position\" attribute is likely to have NaN values.",
+                    "target": "THREE.BufferGeometry.computeBoundingBox(): 计算得到的最小/最大值为 NaN。\"position\" 属性可能包含 NaN 值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.BufferGeometry.computeBoundingSphere(): GLBufferAttribute requires a manual bounding sphere. Alternatively set \"mesh.frustumCulled\" to \"false\".",
+                    "target": "THREE.BufferGeometry.computeBoundingSphere(): GLBufferAttribute 需要手动设置包围球。或者将 \"mesh.frustumCulled\" 设为 \"false\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.BufferGeometry.computeBoundingSphere(): Computed radius is NaN. The \"position\" attribute is likely to have NaN values.",
+                    "target": "THREE.BufferGeometry.computeBoundingSphere(): 计算得到的半径为 NaN。\"position\" 属性可能包含 NaN 值。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.BufferGeometry: .computeTangents() failed. Missing required attributes (index, position, normal or uv)",
+                    "target": "THREE.BufferGeometry: .computeTangents() 失败。缺少必需的属性（index、position、normal 或 uv）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLBufferRenderer: using THREE.InstancedBufferGeometry but hardware does not support extension ANGLE_instanced_arrays.",
+                    "target": "THREE.WebGLBufferRenderer: 使用 THREE.InstancedBufferGeometry，但硬件不支持扩展 ANGLE_instanced_arrays。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "blur direction must be either latitudinal or longitudinal!",
+                    "target": "模糊方向必须是 latitudinal 或 longitudinal！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLIndexedBufferRenderer: using THREE.InstancedBufferGeometry but hardware does not support extension ANGLE_instanced_arrays.",
+                    "target": "THREE.WebGLIndexedBufferRenderer: 使用 THREE.InstancedBufferGeometry，但硬件不支持扩展 ANGLE_instanced_arrays。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLInfo: Unknown draw mode:",
+                    "target": "THREE.WebGLInfo: 未知绘制模式:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLRenderer: Unable to use RectAreaLight. Missing WebGL extensions.",
+                    "target": "THREE.WebGLRenderer: 无法使用 RectAreaLight。缺少 WebGL 扩展。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLState: Invalid blending: ",
+                    "target": "THREE.WebGLState: 无效的混合: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLState:",
+                    "target": "THREE.WebGLState:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "WebGLRenderer: Floating point depth texture requires WebGL2.",
+                    "target": "WebGLRenderer: 浮点深度纹理需要 WebGL2。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLTextures: THREE.Data3DTexture and THREE.DataArrayTexture only supported with WebGL2.",
+                    "target": "THREE.WebGLTextures: THREE.Data3DTexture 和 THREE.DataArrayTexture 仅在 WebGL2 中支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLTextures: Unsupported texture color space:",
+                    "target": "THREE.WebGLTextures: 不支持的纹理色彩空间:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLRenderer: Maximum number of simultaneously usable uniforms groups reached.",
+                    "target": "THREE.WebGLRenderer: 已达到同时可用的 uniforms 组最大数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLRenderer: A WebGL context could not be created. Reason: ",
+                    "target": "THREE.WebGLRenderer: 无法创建 WebGL 上下文。原因: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLRenderer.render: camera is not an instance of THREE.Camera.",
+                    "target": "THREE.WebGLRenderer.render: camera 不是 THREE.Camera 的实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.WebGLRenderer.readRenderTargetPixels: renderTarget is not THREE.WebGLRenderTarget.",
+                    "target": "THREE.WebGLRenderer.readRenderTargetPixels: renderTarget 不是 THREE.WebGLRenderTarget。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.KeyframeTrack: Invalid value size in track.",
+                    "target": "THREE.KeyframeTrack: 轨道中的值大小无效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.KeyframeTrack: Time is not a valid number.",
+                    "target": "THREE.KeyframeTrack: Time 不是有效数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.KeyframeTrack: Out of order keys.",
+                    "target": "THREE.KeyframeTrack: 键的顺序不正确。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.KeyframeTrack: Value is not a valid number.",
+                    "target": "THREE.KeyframeTrack: Value 不是有效数字。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Can not bind to material as node does not have a material.",
+                    "target": "THREE.PropertyBinding: 无法绑定到 material，因为 node 没有 material。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Can not bind to material.materials as node.material does not have a materials array.",
+                    "target": "THREE.PropertyBinding: 无法绑定到 material.materials，因为 node.material 没有 materials 数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Can not bind to bones as node does not have a skeleton.",
+                    "target": "THREE.PropertyBinding: 无法绑定到 bones，因为 node 没有 skeleton。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Can not bind to material.map as node.material does not have a map.",
+                    "target": "THREE.PropertyBinding: 无法绑定到 material.map，因为 node.material 没有 map。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Can not bind to objectName of node undefined.",
+                    "target": "THREE.PropertyBinding: 无法绑定到 node undefined 的 objectName。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Trying to bind to objectIndex of objectName, but is undefined.",
+                    "target": "THREE.PropertyBinding: 尝试绑定到 objectName 的 objectIndex，但未定义。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Can not bind to morphTargetInfluences because node does not have a geometry.",
+                    "target": "THREE.PropertyBinding: 无法绑定到 morphTargetInfluences，因为节点没有 geometry。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "THREE.PropertyBinding: Can not bind to morphTargetInfluences because node does not have a geometry.morphAttributes.",
+                    "target": "THREE.PropertyBinding: 无法绑定到 morphTargetInfluences，因为节点没有 geometry.morphAttributes。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No path found between the two nodes",
+                    "target": "在两个节点之间未找到路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid nodes provided",
+                    "target": "提供的节点无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "THREE.WebGLRenderer: Context Lost.",
+                    "target": "THREE.WebGLRenderer: 上下文已丢失。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "THREE.WebGLRenderer: Context Restored.",
+                    "target": "THREE.WebGLRenderer: 上下文已恢复。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "same graph, no need to update",
+                    "target": "相同的图，无需更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Look at center",
+                    "target": "查看中心"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Save current settings",
+                    "target": "保存当前设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add Group",
+                    "target": "添加分组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The maximum number of nodes in the graph. Graphs that has more than this number will not be rendered so that your computer is protected from hanging.",
+                    "target": "图中节点的最大数量。超过此数量的图将不会渲染，以防止电脑卡死。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Search engine determine how to parse the query string and return results.",
+                    "target": "搜索引擎决定如何解析查询字符串并返回结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If true, right click will pan the graph. Otherwise, Cmd + left click will pan the graph.",
+                    "target": "若为 true，右键拖动将平移图。否则，Cmd + 左键拖动将平移图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to do when command + left click a node",
+                    "target": "Command + 左键点击节点时的操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to do when command + right click a node",
+                    "target": "Command + 右键点击节点时的操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum node number in graph",
+                    "target": "图中最大节点数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search Engine",
+                    "target": "搜索引擎"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Right click to pan",
+                    "target": "右键拖动平移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Command + left click node",
+                    "target": "Command + 左键点击节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Command + right click node",
+                    "target": "Command + 右键单击节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show attachments",
+                    "target": "显示附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show orphans",
+                    "target": "显示孤立节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show Incoming Links",
+                    "target": "显示传入链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Dag orientation",
+                    "target": "DAG 方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in local 3D Graph",
+                    "target": "在本地 3D 图中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete Group",
+                    "target": "删除组"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Open graph settings",
+                    "target": "打开图设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Clear setting",
+                    "target": "清除设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "ngraph.graph: Starting from version 0.14 `uniqueLinkId` is deprecated.\nUse `multigraph` option instead\n",
+                    "target": "ngraph.graph：从 0.14 版本开始，`uniqueLinkId` 已被弃用。\n请改用 `multigraph` 选项\n"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Note: there is also change in default behavior: From now on each graph\nis considered to be not a multigraph by default (each edge is unique).",
+                    "target": "注意：默认行为也有变化：从现在起，每个图默认被视为非多重图（每条边都是唯一的）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "invalidateBBox() is deprecated, bounds always recomputed on `getBBox()` call",
+                    "target": "invalidateBBox() 已弃用，边界会在调用 `getBBox()` 时始终重新计算"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "parsed loaded data failed",
+                    "target": "解析已加载数据失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.ImageUtils.getDataURL: Image converted to jpg for performance reasons",
+                    "target": "THREE.ImageUtils.getDataURL: 出于性能原因，图像已转换为 jpg"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.ImageUtils.sRGBToLinear(): Unsupported image type. No color space conversion applied.",
+                    "target": "THREE.ImageUtils.sRGBToLinear(): 不支持的图像类型。未应用色彩空间转换。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.Texture: Unable to serialize Texture.",
+                    "target": "THREE.Texture: 无法序列化 Texture。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.Triangle.getUV() has been renamed to THREE.Triangle.getInterpolation().",
+                    "target": "THREE.Triangle.getUV() 已重命名为 THREE.Triangle.getInterpolation()。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.BufferGeometry.toNonIndexed(): BufferGeometry is already non-indexed.",
+                    "target": "THREE.BufferGeometry.toNonIndexed(): BufferGeometry 已经是非索引的。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "UniformsUtils: Textures of render targets cannot be cloned via cloneUniforms() or mergeUniforms().",
+                    "target": "UniformsUtils: 渲染目标的纹理无法通过 cloneUniforms() 或 mergeUniforms() 进行克隆。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer:",
+                    "target": "THREE.WebGLRenderer:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "not supported, using",
+                    "target": "不受支持，使用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLProgram: Unsupported color space:",
+                    "target": "THREE.WebGLProgram: 不受支持的颜色空间："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Shader chunk \"%s\" has been deprecated. Use \"%s\" instead.",
+                    "target": "THREE.WebGLRenderer: 着色器块 \"%s\" 已弃用。请改用 \"%s\"。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLProgram: Program Info Log:",
+                    "target": "THREE.WebGLProgram: 程序信息日志："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLProgram.getParameters:",
+                    "target": "THREE.WebGLProgram.getParameters:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLShadowMap:",
+                    "target": "THREE.WebGLShadowMap:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "has no shadow.",
+                    "target": "没有阴影。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Texture marked for update but no image data found.",
+                    "target": "THREE.WebGLRenderer: 纹理已标记为更新，但未找到图像数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Texture marked for update but image is incomplete",
+                    "target": "THREE.WebGLRenderer: 纹理已标记为更新，但图像不完整"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Texture is not power of two. Texture.wrapS and Texture.wrapT should be set to THREE.ClampToEdgeWrapping.",
+                    "target": "THREE.WebGLRenderer: 纹理尺寸不是 2 的幂。Texture.wrapS 和 Texture.wrapT 应设置为 THREE.ClampToEdgeWrapping。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Texture is not power of two. Texture.minFilter should be set to THREE.NearestFilter or THREE.LinearFilter.",
+                    "target": "THREE.WebGLRenderer：纹理不是2的幂。Texture.minFilter 应设置为 THREE.NearestFilter 或 THREE.LinearFilter。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Use UnsignedShortType or UnsignedIntType for DepthFormat DepthTexture.",
+                    "target": "THREE.WebGLRenderer：对 DepthFormat DepthTexture 使用 UnsignedShortType 或 UnsignedIntType。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Use UnsignedInt248Type for DepthStencilFormat DepthTexture.",
+                    "target": "THREE.WebGLRenderer：对 DepthStencilFormat DepthTexture 使用 UnsignedInt248Type。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: WebGLMultipleRenderTargets can only be used with WebGL2 or WEBGL_draw_buffers extension.",
+                    "target": "THREE.WebGLRenderer：WebGLMultipleRenderTargets 只能与 WebGL2 或 WEBGL_draw_buffers 扩展一起使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLTextures: sRGB encoded textures have to use RGBAFormat and UnsignedByteType.",
+                    "target": "THREE.WebGLTextures：sRGB 编码的纹理必须使用 RGBAFormat 和 UnsignedByteType。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebXRManager: Cannot change framebuffer scale while presenting.",
+                    "target": "THREE.WebXRManager：正在呈现时无法更改帧缓冲缩放。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebXRManager: Cannot change reference space type while presenting.",
+                    "target": "THREE.WebXRManager：正在呈现时无法更改参考空间类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Texture samplers can not be part of an uniforms group.",
+                    "target": "THREE.WebGLRenderer：纹理采样器不能作为 uniform 组的一部分。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Unsupported uniform value type.",
+                    "target": "THREE.WebGLRenderer：不支持的 uniform 值类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Can't change size while VR device is presenting.",
+                    "target": "THREE.WebGLRenderer：VR 设备正在呈现时无法更改大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: SkinnedMesh can only be used with WebGL 2. With WebGL 1 OES_texture_float and vertex textures support is required.",
+                    "target": "THREE.WebGLRenderer：SkinnedMesh 只能与 WebGL 2 一起使用。使用 WebGL 1 时需要 OES_texture_float 和顶点纹理支持。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Uniform Buffer Objects can only be used with WebGL 2.",
+                    "target": "THREE.WebGLRenderer：Uniform Buffer Objects 只能与 WebGL 2 一起使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: Render-to-texture extension was disabled because an external texture was provided",
+                    "target": "THREE.WebGLRenderer：由于提供了外部纹理，渲染到纹理扩展已被禁用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer.copyTextureToTexture3D: can only be used with WebGL2.",
+                    "target": "THREE.WebGLRenderer.copyTextureToTexture3D：只能与 WebGL2 一起使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer.copyTextureToTexture3D: only supports THREE.DataTexture3D and THREE.DataTexture2DArray.",
+                    "target": "THREE.WebGLRenderer.copyTextureToTexture3D：仅支持 THREE.DataTexture3D 和 THREE.DataTexture2DArray。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer.copyTextureToTexture3D: untested support for compressed srcTexture.",
+                    "target": "THREE.WebGLRenderer.copyTextureToTexture3D：对压缩的 srcTexture 支持尚未测试。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.WebGLRenderer: The property .useLegacyLights has been deprecated. Migrate your lighting according to the following guide: https://discourse.threejs.org/t/updates-to-lighting-in-three-js-r155/53733.",
+                    "target": "THREE.WebGLRenderer：属性 .useLegacyLights 已弃用。请根据以下指南迁移你的光照设置：https://discourse.threejs.org/t/updates-to-lighting-in-three-js-r155/53733。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.KeyframeTrack:",
+                    "target": "THREE.KeyframeTrack："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: Multiple instances of Three.js being imported.",
+                    "target": "警告：导入了多个 Three.js 实例。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.Line.computeLineDistances(): Computation only possible with non-indexed BufferGeometry.",
+                    "target": "THREE.Line.computeLineDistances()：只能在非索引 BufferGeometry 上进行计算。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "THREE.TrackballControls: Unsupported camera type",
+                    "target": "THREE.TrackballControls：不支持的相机类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: OrbitControls.js encountered an unknown camera type - zoom to cursor disabled.",
+                    "target": "警告：OrbitControls.js 遇到未知的相机类型 - 已禁用缩放至光标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: OrbitControls.js encountered an unknown camera type - pan disabled.",
+                    "target": "警告：OrbitControls.js 遇到未知的相机类型 - 已禁用平移。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "WARNING: OrbitControls.js encountered an unknown camera type - dolly/zoom disabled.",
+                    "target": "警告：OrbitControls.js 遇到未知的相机类型 - 已禁用推拉/缩放。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Found invalid interpolation list. Skipping.",
+                    "target": "发现无效的插值列表。已跳过。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Node size",
+                    "target": "节点大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link thickness",
+                    "target": "连线粗细"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link distance",
+                    "target": "连线距离"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Node repulsion",
+                    "target": "节点排斥力"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Distance from focal",
+                    "target": "距焦点距离"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Node hover color",
+                    "target": "节点悬停颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Node hover neighbour color",
+                    "target": "节点悬停相邻节点颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Link hover color",
+                    "target": "链接悬停颜色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show file extension",
+                    "target": "显示文件扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show note full path",
+                    "target": "显示笔记完整路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show center coordinates",
+                    "target": "显示中心坐标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show link arrow",
+                    "target": "显示链接箭头"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Don't move when drag",
+                    "target": "拖拽时不移动"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Global 3D Graph",
+                    "target": "打开全局 3D 图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Local 3D Graph",
+                    "target": "打开本地 3D 图谱"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Delete Note",
+                    "target": "删除笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Test Command",
+                    "target": "测试命令"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Shortest Path",
+                    "target": "最短路径"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
